@@ -5,3 +5,4 @@ ENV PG_VERSION=9.3.4
 CMD python /app/app.py
 CMD ["sleep" "600"]
 ENV ram=RAM
+ENV app=frontend
